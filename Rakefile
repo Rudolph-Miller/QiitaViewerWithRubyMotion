@@ -12,6 +12,3 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'QiitaViewerWithRubyMotion'
 end
-
-IB::RakeTask.new do |project|
-end
