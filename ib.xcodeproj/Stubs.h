@@ -8,16 +8,20 @@
 @interface AppDelegate: UIResponder <UIApplicationDelegate>
 @end
 
+@interface Article: NSObject
+@end
+
+@interface User: NSObject
+-(IBAction) initialize:(id) id;
+
+@end
+
 @interface ArticleListViewController: UIViewController
 -(IBAction) viewDidLoad;
 
 @end
 
 @interface MainViewController: UIViewController
-
-@property IBOutlet UIButton * article_list_button;
-@property IBOutlet UILabel * label;
-
 -(IBAction) viewDidLoad;
 
 @end

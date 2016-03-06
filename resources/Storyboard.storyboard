@@ -33,7 +33,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Articles"/>
                                 <connections>
-                                    <segue destination="bwa-qv-CXM" kind="show" id="9rR-tM-RRP"/>
+                                    <segue destination="b3c-2x-PYQ" kind="show" id="ugz-vB-nrj"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -44,22 +44,22 @@
             <point key="canvasLocation" x="3522" y="691"/>
         </scene>
         <!--Article List View Controller-->
-        <scene sceneID="jDS-Qh-Ygd">
+        <scene sceneID="Yd7-nO-e4w">
             <objects>
-                <viewController id="bwa-qv-CXM" customClass="ArticleListViewController" sceneMemberID="viewController">
+                <viewController id="b3c-2x-PYQ" customClass="ArticleListViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="t7Z-6t-h1O"/>
-                        <viewControllerLayoutGuide type="bottom" id="QiI-ZN-Kng"/>
+                        <viewControllerLayoutGuide type="top" id="PM3-zk-bEf"/>
+                        <viewControllerLayoutGuide type="bottom" id="FFE-xh-azr"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lm5-Xs-GO3">
+                    <view key="view" contentMode="scaleToFill" id="Nal-Pg-aMx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LoT-2G-HFO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BFd-i7-zMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3987" y="703"/>
+            <point key="canvasLocation" x="4027" y="597"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="m7Y-PN-JRZ">

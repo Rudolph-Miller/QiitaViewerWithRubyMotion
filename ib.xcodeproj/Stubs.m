@@ -6,6 +6,12 @@
 @implementation AppDelegate
 @end
 
+@implementation Article
+@end
+
+@implementation User
+@end
+
 @implementation ArticleListViewController
 @end
 
