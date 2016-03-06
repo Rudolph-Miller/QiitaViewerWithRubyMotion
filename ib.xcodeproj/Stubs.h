@@ -8,3 +8,17 @@
 @interface AppDelegate: UIResponder <UIApplicationDelegate>
 @end
 
+@interface ArticleListViewController: UIViewController
+-(IBAction) viewDidLoad;
+
+@end
+
+@interface MainViewController: UIViewController
+
+@property IBOutlet UIButton * article_list_button;
+@property IBOutlet UILabel * label;
+
+-(IBAction) viewDidLoad;
+
+@end
+
