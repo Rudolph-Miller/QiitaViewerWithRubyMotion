@@ -4,17 +4,23 @@ GEM
     ProMotion (2.5.0)
       methadone (~> 1.7)
       motion_print (~> 1.0)
+    dbt (1.2.0)
     methadone (1.9.2)
       bundler
+    motion-kit (1.0.0)
+      dbt (~> 1.1, >= 1.1.5)
     motion_print (1.2.0)
     rake (10.5.0)
+    sugarcube (3.3.7)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   ProMotion
+  motion-kit
   rake
+  sugarcube
 
 BUNDLED WITH
    1.10.6

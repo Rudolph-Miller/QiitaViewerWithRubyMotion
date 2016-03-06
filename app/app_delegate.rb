@@ -1,15 +1,7 @@
-class AppDelegate
-  def application(application, didFinishLaunchingWithOptions:launchOptions)
-    rootViewController = UIViewController.alloc.init
-    rootViewController.title = 'QiitaViewerWithRubyMotion'
-    rootViewController.view.backgroundColor = UIColor.whiteColor
+class AppDelegate < PM::Delegate
+  status_bar true, animation: :none
 
-    navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
-
-    @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.rootViewController = navigationController
-    @window.makeKeyAndVisible
-
-    true
+  def on_load(app, options)
+    open MainScreen.new(nav_bar: true)
   end
 end
